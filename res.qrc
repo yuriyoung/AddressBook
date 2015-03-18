@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/photo.png</file>
+        <file>icons/green/exit.png</file>
+        <file>icons/green/add.png</file>
+        <file>icons/green/delete.png</file>
+        <file>icons/green/edit.png</file>
+        <file>icons/green/find.png</file>
+        <file>icons/green/star.png</file>
+        <file>icons/green/favourite.png</file>
+        <file>icons/green/remove_favourite.png</file>
+        <file>icons/green/mail.png</file>
+        <file>icons/green/user.png</file>
+        <file>icons/green/key.png</file>
+        <file>icons/green/setting.png</file>
+        <file>icons/green/music.png</file>
+        <file>icons/green/key_2.png</file>
+        <file>icons/green/detail.png</file>
+        <file>icons/green/help.png</file>
+        <file>icons/green/info.png</file>
+        <file>icons/green/flag.png</file>
+        <file>icons/green/gear_wheel.png</file>
+        <file>icons/green/monitor.png</file>
+        <file>icons/green/music.png</file>
+        <file>icons/green/no_sound.png</file>
+        <file>icons/green/sound.png</file>
+        <file>icons/green/card.png</file>
+        <file>icons/green/address_book.png</file>
+    </qresource>
+</RCC>

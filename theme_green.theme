@@ -1,0 +1,6 @@
+[Icon Theme]
+Name=Birch
+Name[sv]=Bj?rk
+Comment=Icon theme with a wooden look
+Inherits=wood,default
+Directories=icons

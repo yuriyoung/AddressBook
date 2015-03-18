@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddContactDialog</class>
+ <widget class="QDialog" name="AddContactDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>549</width>
+    <height>463</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add Contact</string>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="1" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab_basics">
+      <attribute name="title">
+       <string>Basics</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>First Name:</string>
+           </property>
+           <property name="buddy">
+            <cstring>edt_firstName</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QComboBox" name="cbox_sex">
+           <item>
+            <property name="text">
+             <string>Male</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Female</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="8" column="0">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>E-mail：</string>
+           </property>
+           <property name="buddy">
+            <cstring>dedt_birthDate</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="edt_nickName"/>
+         </item>
+         <item row="10" column="1" colspan="4">
+          <widget class="QLineEdit" name="edt_weibo"/>
+         </item>
+         <item row="9" column="1">
+          <widget class="QLineEdit" name="edt_qq"/>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>Sex:</string>
+           </property>
+           <property name="buddy">
+            <cstring>cbox_sex</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>Birth Date:</string>
+           </property>
+           <property name="buddy">
+            <cstring>dedt_birthDate</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="3" colspan="2">
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>10</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="8" column="1">
+          <widget class="QLineEdit" name="edt_email"/>
+         </item>
+         <item row="1" column="3" rowspan="8" colspan="2">
+          <widget class="QLabel" name="lb_photo">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>200</width>
+             <height>200</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="res.qrc">:/images/photo.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0">
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>QQ：</string>
+           </property>
+           <property name="buddy">
+            <cstring>dedt_birthDate</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Nick Name:</string>
+           </property>
+           <property name="buddy">
+            <cstring>edt_nickName</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="0">
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>WebSite:</string>
+           </property>
+           <property name="buddy">
+            <cstring>dedt_birthDate</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="1" colspan="4">
+          <widget class="QLineEdit" name="edt_website"/>
+         </item>
+         <item row="7" column="1">
+          <widget class="QLineEdit" name="edt_telPhone"/>
+         </item>
+         <item row="10" column="0">
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>Weibo:</string>
+           </property>
+           <property name="buddy">
+            <cstring>dedt_birthDate</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="edt_lastName"/>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_18">
+           <property name="text">
+            <string>Group:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>10</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="cbox_group"/>
+         </item>
+         <item row="7" column="0">
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>Tel Phone:</string>
+           </property>
+           <property name="buddy">
+            <cstring>dedt_birthDate</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Last Name:</string>
+           </property>
+           <property name="buddy">
+            <cstring>edt_lastName</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QDateEdit" name="dedt_birthDate"/>
+         </item>
+         <item row="0" column="2">
+          <widget class="QPushButton" name="btn_addGroup">
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>+</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="edt_firstName"/>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_19">
+           <property name="text">
+            <string>Age:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLineEdit" name="edt_age"/>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLabel" name="label_20">
+           <property name="text">
+            <string>Photo:(Click to add)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_address">
+      <attribute name="title">
+       <string>Address</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="edt_homeCode"/>
+         </item>
+         <item row="1" column="3">
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_16">
+           <property name="text">
+            <string>Office Tel:</string>
+           </property>
+           <property name="buddy">
+            <cstring>dedt_birthDate</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_14">
+           <property name="text">
+            <string>Code:</string>
+           </property>
+           <property name="buddy">
+            <cstring>dedt_birthDate</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="6" column="1">
+          <widget class="QLineEdit" name="edt_officeTel"/>
+         </item>
+         <item row="0" column="1" colspan="3">
+          <widget class="QLineEdit" name="edt_homeAddr"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_15">
+           <property name="text">
+            <string>Code:</string>
+           </property>
+           <property name="buddy">
+            <cstring>dedt_birthDate</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_11">
+           <property name="text">
+            <string>Home Address:</string>
+           </property>
+           <property name="buddy">
+            <cstring>dedt_birthDate</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="edt_homeTel"/>
+         </item>
+         <item row="4" column="1" colspan="3">
+          <widget class="QLineEdit" name="edt_officeAddr"/>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLineEdit" name="edt_officeCode"/>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_13">
+           <property name="text">
+            <string>Office Address:</string>
+           </property>
+           <property name="buddy">
+            <cstring>dedt_birthDate</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string>Home Tel:</string>
+           </property>
+           <property name="buddy">
+            <cstring>dedt_birthDate</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_17">
+           <property name="text">
+            <string>Job:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="edt_job"/>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_note">
+      <attribute name="title">
+       <string>Note</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="0" column="0">
+        <widget class="QTextEdit" name="tedt_note"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>edt_lastName</tabstop>
+  <tabstop>edt_firstName</tabstop>
+  <tabstop>edt_nickName</tabstop>
+  <tabstop>cbox_sex</tabstop>
+  <tabstop>dedt_birthDate</tabstop>
+  <tabstop>edt_telPhone</tabstop>
+  <tabstop>edt_email</tabstop>
+  <tabstop>edt_qq</tabstop>
+  <tabstop>edt_weibo</tabstop>
+  <tabstop>edt_website</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>buttonBox</tabstop>
+  <tabstop>edt_homeAddr</tabstop>
+  <tabstop>edt_homeCode</tabstop>
+  <tabstop>edt_homeTel</tabstop>
+  <tabstop>edt_officeAddr</tabstop>
+  <tabstop>edt_officeCode</tabstop>
+  <tabstop>edt_officeTel</tabstop>
+  <tabstop>tedt_note</tabstop>
+ </tabstops>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>AddContactDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>AddContactDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
